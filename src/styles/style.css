@@ -1,0 +1,16 @@
+.scroll-container {
+  height: 400px; /* Set the height of the container */
+  overflow-y: auto; /* Enable vertical scroll */
+  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+  padding: 10px; /* Optional: Add some padding */
+}
+
+/* Optional: You can customize the scrollbar style for better UX */
+.scroll-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
